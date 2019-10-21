@@ -1,0 +1,119 @@
+   
+    1. Newton Second Law 
+    Algoritma:
+
+	1. Tentukan m dengan nilai 600
+	2. Tentukan s dengan nilai 2
+	3. Simpan nilai F tanpa diberi nilai. Ini akan diisi nanti.
+	4. Hitung hasil perkalian m dengan s
+	5. Masukkan nilai hasil perhitungan ke dalam nilai F
+	6. Tampilkan nilai F
+
+    Pseudocode:
+    
+    STORE “m” as variable with value of 600
+    STORE “a” as variable with value of 2
+    STORE “F” as variable and SET it with no value
+
+	CALCULATE “m” times “a”
+	SET “F” value with calculation result
+	
+	DISPLAY “F” with additional unit of kgm/s2
+
+    2. Tahun Kabisat
+    Algoritma:
+	
+	1. Tentukan tahun
+	2. Hitung tahun dibagi dengan 4
+	3. Simpan hasil pembagian 
+	4. Hitung tahun dibagi dengan 100
+	5. Simpan hasil pembagian
+	6. Hitung tahun dibagi dengan 400
+	7. Simpan hasil pembagian
+	8. Jika sisa hasil pembagian pada langkah 2 sama dengan 0 dan sisa hasil pembagian
+	    langkah 4 tidak sama dengan 0 maka tampilkan tahun adalah tahun kabisat’
+	9. Jika sisa hasil pembagian pada langkah 2, 4, dan 6 sama dengan 0 maka tampilkan ‘tahun
+	    adalah tahun kabisat’  
+	10. Selain itu maka tampilkan ‘tahun adalah bukan tahun kabisat’
+
+	Pseudocode:
+	
+	STORE tahun WITH any value of year
+	CALCULATE tahun MOD 4
+	SET mod_4 WITH calculation result
+	CALCULATE tahun MOD 100
+	SET mod_100 WITH calculation result
+	CALCULATE tahun MOD 400
+	SET mod_400 WITH calculation result
+	IF mod_4 EQUALS WITH 0 AND  mod_100 NOT EQUALS WITH 0
+		DISPLAY “tahun adalah tahun kabisat”
+	ELSE IF mod_4 EQUALS WITH 0 AND mod_100 EQUALS WITH 0 AND  mod_400 
+	EQUALS WITH 0 
+		DISPLAY “tahun adalah tahun kabisat”
+	ELSE
+		DISPLAY “tahun adalah bukan tahun kabisat”
+	END IF	
+
+    3. Laundry Day
+    algoritma:
+	
+	1. Simpan nilai “number_laundry” dengan angka 0
+	2. Masukkan pakaian ke dalam mesin cuci 
+	3. Tambahkan nilai “number_laundry” dengan angka 1
+	4. Lakukan perulangan sesuai langkah 2 dan 3 sampai nilai “number _laundry” sama dengan
+	    20
+	5. Nyalakan mesin laundry.
+
+
+	Pseudocode:
+	
+	1. STORE number_laundry with 0
+	2. WHILE number_laundry <= 20
+	3. 	ADD number_laundry by 1
+	4. IF number_laundry EQUALS WITH 20
+		DISPLAY “Start mesin cuci”
+	5. ELSE 
+		DISPLAY “ Tambahkan pakaian ke dalam mesin cuci”
+	6. ENDWHILE
+
+
+ 
+    4. Periksa Kuku
+    Algoritma:
+
+	1. Simpan nilai “number_student” dengan angka 1.
+	2. Lakukan pengecekan pada siswa/siswi
+	3.Tambahkan nilai “number_student” dengan angka 1  
+	4. Lakukan perulangan sesuai dengan langkah 2 dan 3
+	
+
+	Pseudocode:
+	
+	1. STORE number_student with 1
+	2. STORE status_kuku WITHOUT any value
+	3. WHILE number_student <=40
+	4. 	IF number_student mod 2 EQUALS WITH 0
+			SET status_kuku = ‘panjang’
+			DISPLAY “siswa/siswi harus dihukum”
+	5. 	ELSE	
+			SET status_kuku = ‘pendek’
+			DISPLAY “siswa/siswi boleh dipuji”
+	6. 	ENDIF
+	7. 	ADD number_student
+	8. ENDWHILE
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+

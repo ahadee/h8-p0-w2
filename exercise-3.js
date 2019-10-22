@@ -1,6 +1,6 @@
-var nama = 'Bagus', peran = 'Ksatria';
+var nama = '', peran = 'Tabib';
 
-if (peran == '' && nama == '') {
+if (peran == '' || nama == '') {
     console.log('Nama harus diisi!')
 }
 
@@ -21,4 +21,8 @@ else if (peran == 'Tabib') {
 else if (peran == 'Penyihir') {
     console.log('Selamat datang di Dunia Proxytia,' + nama)
     console.log('Halo Penyihir ' + nama + ', ciptakan keajaiban yang membantu kemenanganmu!')
+}
+
+else {
+    console.log('Peran yang anda masukkan tidak sesuai!')
 }

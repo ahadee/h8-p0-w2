@@ -1,6 +1,6 @@
 var day = '30', // assign nilai variabel tanggal disini! (dengan angka antara 1 - 31)
-    month = '2', // assign nilai variabel bulan disini! (dengan angka antara 1 - 12)
-    year = '2000'; // assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200)
+    month = '1', // assign nilai variabel bulan disini! (dengan angka antara 1 - 12)
+    year = '2300'; // assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200)
 
 
 switch (month)
@@ -19,7 +19,7 @@ switch (month)
         console.log(day +' Februari '+ year);
         }
         else {
-            console.log('Anda memasukkan format date yang salah');
+            console.log('Anda memasukkan format date yang salah! jumlah hari di bulan Februari hanya 29');
         }
         break;
     case "3":

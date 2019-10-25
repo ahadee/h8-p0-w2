@@ -1,5 +1,7 @@
+var hasil ='';
+
 function balikKata(kata) {
-    var hasil ='';
+    hasil ='';
 
     for (var j = kata.length-1; j>=0; j--){
         hasil = hasil + kata[j];

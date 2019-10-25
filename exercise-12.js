@@ -1,14 +1,15 @@
 function konversiMenit(menit) {
-    var jam = (menit/60);
-    var jam_integer = Math.floor(jam);
-    var mnt = (jam - jam_integer) * 60;
-    var mnt_integer = Math.round(mnt);
+    
+    var mnt = menit % 60;
+    var mnt_integer = Number(mnt);
+    var jam = (menit - mnt) / 60;
+    var jam_integer = Number(jam);
 
     if (mnt_integer<10){
-        return jam_integer + ':0' + mnt_integer;
+        return jam_integer + ':0' + mnt;
     }
     else {
-    return jam_integer + ':' + mnt_integer;
+    return jam_integer + ':' + mnt;
     }
 }
 
